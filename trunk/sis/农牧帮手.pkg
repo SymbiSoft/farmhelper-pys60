@@ -1,0 +1,60 @@
+; Languages
+&ZH
+
+; Package header
+#{"农牧帮手"}, (0x00000017), 1, 43, 0, TYPE=SA
+
+; Dependencies
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+[0x102032BE], 0, 0, 0, {"S60 3rd Edition FP1 devices"}
+[0x102752AE], 0, 0, 0, {"S60 3rd Edition FP2 devices"}
+[0x1028315F], 0, 0, 0, {"S60 5th devices"}
+[0x20022E6D], 0, 0, 0, {"Symbian^3 devices"}
+(0x2000B1A0), 1, 4, 0, {"Python for S60"}
+
+; Vendor names
+%{"絶恋"}
+:"絶恋"
+
+"Text(0-0).txt"-"", FT, TE
+"Text(0-1).txt"-"", FT, TE
+"private\00000017\default.py"-"!:\private\00000017\default.py"
+"private\00000017\FarmHelper.pyc"-"!:\private\00000017\FarmHelper.pyc"
+"private\00000017\Helper.pyc"-"!:\private\00000017\Helper.pyc"
+"private\00000018\default.py"-"!:\private\00000018\default.py"
+"private\10003a3f\import\apps\FarmHelper_0x00000017_reg.rsc"-"!:\private\10003a3f\import\apps\FarmHelper_0x00000017_reg.rsc"
+"private\10003a3f\import\apps\FarmHelper_0x00000018_reg.rsc"-"!:\private\10003a3f\import\apps\FarmHelper_0x00000018_reg.rsc"
+"resource\apps\FarmHelper_0x00000017.rsc"-"!:\resource\apps\FarmHelper_0x00000017.rsc"
+"resource\apps\FarmHelper_0x00000017_aif.mif"-"!:\resource\apps\FarmHelper_0x00000017_aif.mif"
+"resource\apps\FarmHelper_0x00000017_loc.r31"-"!:\resource\apps\FarmHelper_0x00000017_loc.r31"
+"resource\apps\FarmHelper_0x00000018.rsc"-"!:\resource\apps\FarmHelper_0x00000018.rsc"
+"resource\apps\FarmHelper_0x00000018_aif.mif"-"!:\resource\apps\FarmHelper_0x00000018_aif.mif"
+"resource\apps\FarmHelper_0x00000018_loc.r31"-"!:\resource\apps\FarmHelper_0x00000018_loc.r31"
+"sys\bin\FarmHelper_0x00000017.exe"-"!:\sys\bin\FarmHelper_0x00000017.exe"
+"sys\bin\FarmHelper_0x00000018.exe"-"!:\sys\bin\FarmHelper_0x00000018.exe"
+"system\apps\FarmHelper\ok.mid"-"!:\system\apps\FarmHelper\ok.mid"
+"system\apps\FarmHelper\cid\CID.TXT"-"!:\system\apps\FarmHelper\cid\CID.TXT"
+"system\apps\FarmHelper\cid\hcid.txt"-"!:\system\apps\FarmHelper\cid\hcid.txt"
+"system\apps\FarmHelper\cid\hzcid.txt"-"!:\system\apps\FarmHelper\cid\hzcid.txt"
+"system\apps\FarmHelper\cid\pcid.txt"-"!:\system\apps\FarmHelper\cid\pcid.txt"
+"system\apps\FarmHelper\cid\rcid.txt"-"!:\system\apps\FarmHelper\cid\rcid.txt"
+"system\apps\FarmHelper\cid\wcid.txt"-"!:\system\apps\FarmHelper\cid\wcid.txt"
+"system\apps\FarmHelper\cid\yCID.TXT"-"!:\system\apps\FarmHelper\cid\yCID.TXT"
+"system\apps\FarmHelper\cid\yrcid.txt"-"!:\system\apps\FarmHelper\cid\yrcid.txt"
+"system\apps\FarmHelper\logo\HelperLogo.png"-"!:\system\apps\FarmHelper\logo\HelperLogo.png"
+""-"!:\system\apps\FarmHelper", FN
+!({"开机自启"},{"竖屏手机"},{"横屏手机"})
+
+IF Option1
+   "C_private\101f875a\import\[00000017].rsc"-"C:\private\101f875a\import\[00000017].rsc"
+ENDIF
+
+IF Option2
+ENDIF
+
+IF Option3
+   "system\apps\FarmHelper\logo\HelperLogo(0-27).png"-"!:\system\apps\FarmHelper\logo\HelperLogo.png"
+ENDIF
+
+
+
